@@ -258,28 +258,28 @@ class MotorCalcul(object):
         qc1=0.0 
         qc2=0 
         g=0.0
-        gseism=0.0                
+        GSeism=0.0                
         etaj0 = casa.vecEtaje[0]
         for elemCrt in etaj0.vElem:
             qc1 += elemCrt.qcap1
             qc2 += elemCrt.qcap2
-            if ( casa.Gseism == 0.0 ):
-                gseism += elemCrt.Nseism
+            if ( casa.GSeism == 0.0 ):
+                GSeism += elemCrt.Nseism
             g += elemCrt.N
         
         casa.G = g
 
-        if ( casa.Gseism == 0 ):
-            casa.Gseism = gseism
+        if ( casa.GSeism == 0 ):
+            casa.GSeism = GSeism
 
         casa.qc1 = qc1
         casa.qc2 = qc2
-        if (casa.ks * casa.beta * etaj0.psimed2 * casa.eps * casa.Gseism !=0 ):
-            casa.R2 = qc2 / (casa.ks * casa.beta * etaj0.psimed2 * casa.eps * casa.Gseism) #cod modificat de la casa.R2 = qc2 / (casa.ks * casa.beta * casa.vecEtaje[etaj0].psimed2 * casa.epsilon * casa.Gseism)
+        if (casa.ks * casa.beta * etaj0.psimed2 * casa.eps * casa.GSeism !=0 ):
+            casa.R2 = qc2 / (casa.ks * casa.beta * etaj0.psimed2 * casa.eps * casa.GSeism) #cod modificat de la casa.R2 = qc2 / (casa.ks * casa.beta * casa.vecEtaje[etaj0].psimed2 * casa.epsilon * casa.GSeism)
         else:
             casa.R2 = -1
-        if (casa.ks * casa.beta * etaj0.psimed1 * casa.eps * casa.Gseism != 0):
-            casa.R1 = qc1 / (casa.ks * casa.beta * etaj0.psimed1 * casa.eps * casa.Gseism) #cod modificat de la casa.R1 = qc1 / (casa.ks * casa.beta * casa.vecEtaje[etaj0].psimed1 * casa.epsilon * casa.Gseism)
+        if (casa.ks * casa.beta * etaj0.psimed1 * casa.eps * casa.GSeism != 0):
+            casa.R1 = qc1 / (casa.ks * casa.beta * etaj0.psimed1 * casa.eps * casa.GSeism) #cod modificat de la casa.R1 = qc1 / (casa.ks * casa.beta * casa.vecEtaje[etaj0].psimed1 * casa.epsilon * casa.GSeism)
         else:
             casa.R1 = -1
 

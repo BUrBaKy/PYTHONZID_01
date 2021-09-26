@@ -176,7 +176,7 @@ class Cladire:
     forta   : float
     G       : float
     GSeism  : float
-    Rezultate : float
+    Rezultate : int
     rc      : float
     rt      : float
     R1      : float

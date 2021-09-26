@@ -1,0 +1,6 @@
+unstring = 'test aliniament\n{:<10.2f}  {:<10.2f}'.format(123, 124)
+print(unstring)
+print('\n{:<10.5f}  {:<10.5f}'.format(123, 124))
+print( '\n{:<10.7f}  {:<10.7f}'.format(123, 124))
+print('\n{:<2} {:<2} {:<11} {:<11}\n'.format('b', 'h', 'd1', 'd2'))
+print('\n{:<2} {:<2} {:<11} {:<11}\n'.format('bb', 'h', 'd1', 'd2'))

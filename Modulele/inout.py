@@ -34,7 +34,7 @@ class Inout():
         if not linie:
             return
         #Nume
-        elemCrt.nume = linie
+        elemCrt.nume = linie.strip()
         #Tipul
         for _ in range(0,4):
             linie = fisier.readline()
@@ -87,9 +87,9 @@ class Inout():
         linie = fisier.readline()
         lista = linie.split(' ')
         if (oCladire.Rotire != 0):
-            elemCrt.Grosime = float(lista[1])
+            elemCrt.gri = float(lista[1])
         else :
-            elemCrt.Grosime = float(lista[0])
+            elemCrt.gri = float(lista[0])
             
     def CiteseFisier(self, oCladire : Cladire):
         fisier = open(self.CaleFisierIn, "r")        
@@ -186,23 +186,23 @@ class Inout():
         ListOut = linestring.split(':')
         messagebox.showinfo("Linie impartita dupa :", ListOut)
     
-    def Convert(i:int, j:int) -> str:        
+    def Convert(self, i:int, j:int) -> str:        
         i1_switch = {
-            0: 'C200',
-            1: 'C150',
-            2: 'C125',
-            3: 'C100',
-            4: 'C75',
-            5: 'C50' }
+            0: "C200",
+            1: "C150",
+            2: "C125",
+            3: "C100",
+            4: "C75",
+            5: "C50" }
         i2_switch = {
-            0: 'M50',
-            1: 'M25',
-            2: 'M10',
-            3: 'M4'}
+            0: "M50",
+            1: "M25",
+            2: "M10",
+            3: "M4"}
         if i==1:
-            return i1_switch(j)
+            return i1_switch.get(j, "Invalid")
         else:
-            return i2_switch(j)
+            return i2_switch.get(j, "Invalid")
 
     def SalvareDate(self, casa : Cladire):
         try:
@@ -211,56 +211,57 @@ class Inout():
             fisier = open(self.CaleFisierOut,"w")
         
             fisier.write('\n')
-            fisier.write('Program  :   ZIDARIE\n\n')
-            fisier.write('Autori   :   prof. dr. ing. Radu Agent\n')
-            fisier.write('             ing. Nicolae Mihaila\n')
-            fisier.write('             ing. Stefan Epure\n\n')
+            fisier.write('  Program  :   ZIDARIE\n\n')
+            fisier.write('  Autori   :   prof. dr. ing. Radu Agent\n')
+            fisier.write('               ing. Nicolae Mihaila\n')
+            fisier.write('               ing. Stefan Epure\n\n')
 
-            fisier.write('Denumire : {}\n'.format(casa.mesaj1))
-            fisier.write('         : {}\n'.format(casa.mesaj2))
+            fisier.write('  Denumire : {}\n'.format(casa.mesaj1))
+            fisier.write('           : {}\n'.format(casa.mesaj2))
 
-            fisier.write('\n Unitatile de masura sunt:\n')
-            fisier.write('\n Lungimi  :  <cm>:')
-            fisier.write('\n Arii     :  <cm2>:')
-            fisier.write('\n Forte    :  <tone>:')
-            fisier.write('\n Eforturi :  <daN/cm2>:')
-            fisier.write('\n Momente  :  <t*m>:')
+            fisier.write('\n  Unitatile de masura sunt:\n')
+            fisier.write('\n  Lungimi  :  <cm>')
+            fisier.write('\n  Arii     :  <cm2>')
+            fisier.write('\n  Forte    :  <tone>')
+            fisier.write('\n  Eforturi :  <daN/cm2>')
+            fisier.write('\n  Momente  :  <t*m>')
 
             fisier.write('\n\n\n\t\t  D A T E L E  D E  I N T R A R E: \n\n')
             fisier.write('\n\n Materiale : ')
-            fisier.write('\n\nMarca de caramida folosita este {}'.format(self.Convert(1,casa.mc)))
-            fisier.write('\nMarca de mortar folosit este {}'.format(self.Convert(2,casa.mm)))
-            fisier.write('\n\n Coeficientii seismici : ks={:.1f}  beta={:.1f}  epsilon={:.1f}'.format(casa.ks, casa.beta, casa.eps))
+            fisier.write('\n\n  Marca de caramida folosita este {}.'.format(self.Convert(1,casa.mc)))
+            fisier.write('\n  Marca de mortar folosit este {}.'.format(self.Convert(2,casa.mm)))
+            fisier.write('\n\n\n Coeficientii seismici : ks=  {:.1f}  beta=  {:.1f}  epsilon=  {:.1f}'.format(casa.ks, casa.beta, casa.eps))
             fisier.write('\n\n\n Geometria:        < Fata de sistemul de referinta al nivelului. >\n')
 
             for i, etajCrt in enumerate(casa.vecEtaje):
                 for j, elemCrt in enumerate(etajCrt.vElem):
-                    fisier.write('\n\n\n      Elementul {} are {} dreptunghiuri. '.format(elemCrt.nume, elemCrt.vecD.__len__))
-                    fisier.write('\n\n\tb\th\td1\td2\n')
+                    fisier.write('\n\n\n      Elementul {} are {} dreptunghiuri. '.format(elemCrt.nume, elemCrt.vecD.__len__()))
+                    #fisier.write('\n\n\tb\th\td1\td2\n')
+                    fisier.write('\n\n{:>10} {:>10} {:>10} {:>10}\n'.format('b', 'h', 'd1', 'd2'))
                     for k, dCrt in enumerate(elemCrt.vecD):
-                        fisier.write('\n{:d}:\t{:.1f}\t{:.1f}\t{:.1f}\t{:.1f}'.format(k+1, dCrt.b, dCrt.h, dCrt.d1, dCrt.d2))
-                    fisier.write('\n\n   Grosime inima                 : {:.2f}'.format(elemCrt.gri))
-                    fisier.write('\n   Forta in element              : {:.2f}'.format(elemCrt.N))
-                    fisier.write('\n   Forta in element pentru seism : {:.2f}'.format(elemCrt.Nseism))
+                        fisier.write('\n{:d}:{:>10.0f}{:>10.0f}{:>10.0f}{:>10.0f}'.format(k+1, dCrt.b, dCrt.h, dCrt.d1, dCrt.d2))
+                    fisier.write('\n\n   Grosime inima                 : {:>7.2f}'.format(elemCrt.gri))
+                    fisier.write('\n   Forta in element              : {:>7.3f}'.format(elemCrt.N))
+                    fisier.write('\n   Forta in element pentru seism : {:>7.3f}'.format(elemCrt.Nseism))
             if casa.Rezultate:
                 fisier.write('\n\n\t\t    R  E  Z  U  L  T  A  T  E  L  E     C  O  M  P  L  E  T  E')
             else:
                 fisier.write('\n\n\t\t    R  E  Z  U  L  T  A  T  E  L  E ')
 
             for i, etajCrt in enumerate(casa.vecEtaje):
-                if casa.Rezultate:
-                    fisier.write('\n\n     Centrul de greutate     :        d1 ={:.2f}          d2 ={:.2f}'.format(etajCrt.d1cg, etajCrt.d2cg))
-                    fisier.write('\n\n     Centrul de rigiditate   : d1cr-d1cm ={:.2f}   d1cr-d1cm ={:.2f}'.format(etajCrt.d1cr, etajCrt.d2cr))
-                else:
-                    fisier.write('\n\n     Incarcarea pe nivel     :              N = {:.3f}'.format(casa.G))
-                    fisier.write('\n     Incarcarea pentru seism :         Nseism = {:.3f}'.format(casa.GSeism))
-                    fisier.write('\n          Aria zidurilor     :              A = {:.3f}'.format(etajCrt.arie))
+                #if casa.Rezultate:
+                fisier.write('\n\n     Centrul de greutate     :        d1 ={:.2f}          d2 ={:.2f}'.format(etajCrt.d1cg, etajCrt.d2cg))
+                fisier.write('\n\n     Centrul de rigiditate   : d1cr-d1cm = {:.2f}   d2cr-d2cm = {:.2f}'.format(etajCrt.d1cr, etajCrt.d2cr))
+                #else:
+                fisier.write('\n\n     Incarcarea pe nivel     :              N = {:.3f}'.format(casa.G))
+                fisier.write('\n     Incarcarea pentru seism :         Nseism = {:.3f}'.format(casa.GSeism))
+                fisier.write('\n          Aria zidurilor     :              A = {:.3f}'.format(etajCrt.arie))
             
                 for j, elemCrt in enumerate(etajCrt.vElem):
                     fisier.write('\n\n\n                 Elementul  {}'.format(elemCrt.nume))
                     if casa.Rezultate:
-                        fisier.write('\n\nArie\ty1\ty2\tArin\tIcgd1\tIcgd2\tW1cg\tW2cg\n')
-                        fisier.write('\n{:.3f}\t{:.3f}\t{:.3f}\t{:.3f}\t{:.3f}\t{:.3f}\t{:.4f}\t{:.4}'.format(
+                        fisier.write('\n\n    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg\n')
+                        fisier.write('\n{:<10.3e}{:<10.3e}{:<10.3e}{:<10.3e}{:<10.3e}{:<10.3e}{:<10.4e}{:<10.4e}'.format(
                             elemCrt.arie, elemCrt.y1, elemCrt.y2, elemCrt.arin, elemCrt.icgd1, elemCrt.icgd2, elemCrt.w1cg, elemCrt.w2cg))
                         fisier.write('\n\nSigma0\ttau0fc\ttau0uc\tMf1\tMf2\tAc1,2\txu1\txu2\n')
                         fisier.write('\n{:.3f}\t{:.3f}\t{:.3f}\t{:.3f}\t{:.3f}\t{:.4f}\t{:.4f}\t{:.4}'.format(
