@@ -1,0 +1,1614 @@
+
+  Program  :   ZIDARIE
+
+  Autori   :   prof. dr. ing. Radu Agent
+               ing. Nicolae Mihaila
+               ing. Stefan Epure
+
+  Denumire : Mesaj1
+           : Mesaj1
+
+  Unitatile de masura sunt:
+
+  Lungimi  :  <cm>
+  Arii     :  <cm2>
+  Forte    :  <tone>
+  Eforturi :  <daN/cm2>
+  Momente  :  <t*m>
+
+
+		  D A T E L E  D E  I N T R A R E: 
+
+
+
+ Materiale : 
+
+  Marca de caramida folosita este C50.
+  Marca de mortar folosit este M4.
+
+
+ Coeficientii seismici : ks=  0.2  beta=  2.8  epsilon=  1.0
+
+
+ Geometria:        < Fata de sistemul de referinta al nivelului. >
+
+
+
+      Elementul L1 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       142        21        71
+2:       120        42       102        21
+
+   Grosime inima                 :   42.00
+   Forta in element              :  48.600
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L2 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:       210        42       433        21
+
+   Grosime inima                 :   42.00
+   Forta in element              :  37.240
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L3 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        40        42       661        21
+2:        28       475       695       238
+
+   Grosime inima                 :   28.00
+   Forta in element              :  83.380
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L4 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:       230        42       958        21
+
+   Grosime inima                 :   42.00
+   Forta in element              :  45.530
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L5 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        80        42      1327        21
+2:        42       142      1368        71
+
+   Grosime inima                 :   42.00
+   Forta in element              :  59.000
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L6 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       100        21       346
+
+   Grosime inima                 :   42.00
+   Forta in element              :  27.480
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L7 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       120      1368       356
+
+   Grosime inima                 :   42.00
+   Forta in element              :  27.720
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L8 are 3 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       122        21       616
+2:        84        42        84       656
+3:        42       162       145       716
+
+   Grosime inima                 :   42.00
+   Forta in element              :  72.580
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L9 are 3 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        20        42       318       656
+2:        28       449       342       452
+3:        20        42       366       656
+
+   Grosime inima                 :   28.00
+   Forta in element              :  62.530
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L10 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:       100        42      1297       656
+2:        42       247      1368       672
+
+   Grosime inima                 :   42.00
+   Forta in element              :  66.180
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L11 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       140       198      1041
+
+   Grosime inima                 :   42.00
+   Forta in element              :  28.830
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L12 are 5 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        80        42       342       656
+2:        80        42       450       656
+3:        28       794       396      1032
+4:        80        28       342       971
+5:        80        28       450      1306
+
+   Grosime inima                 :   28.00
+   Forta in element              : 122.560
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L13 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       100      1368      1043
+
+   Grosime inima                 :   42.00
+   Forta in element              :  33.160
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L14 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        70        28       254      1269
+2:        42       125       198      1318
+
+   Grosime inima                 :   42.00
+   Forta in element              :  38.940
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L15 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       100      1368      1305
+
+   Grosime inima                 :   42.00
+   Forta in element              :  44.230
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L16 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        70        28       254      1632
+2:        42       120       198      1593
+
+   Grosime inima                 :   42.00
+   Forta in element              :  35.170
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L17 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       100      1368      1583
+
+   Grosime inima                 :   42.00
+   Forta in element              :  33.280
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L18 are 4 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       162        21      2018
+2:       135        42       110      1958
+3:        42       168       198      1895
+4:       120        42       279      1958
+
+   Grosime inima                 :   42.00
+   Forta in element              : 121.250
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L19 are 4 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        70        28       347      1616
+2:        80        42       342      1958
+3:        28       501       396      1772
+4:       120        42       470      1958
+
+   Grosime inima                 :   28.00
+   Forta in element              :  88.050
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L20 are 3 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:       120        42       854      1958
+2:        42       120       835      1997
+3:       120        42       916      1958
+
+   Grosime inima                 :   42.00
+   Forta in element              :  66.470
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L21 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:       120        42      1287      1958
+2:        42       292      1368      1963
+
+   Grosime inima                 :   42.00
+   Forta in element              :  88.330
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L22 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        56        56        28      2288
+
+   Grosime inima                 :   56.00
+   Forta in element              :  28.970
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L23 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        56        56       599      2288
+
+   Grosime inima                 :   56.00
+   Forta in element              :  20.020
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L24 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        56        56       844      2288
+
+   Grosime inima                 :   56.00
+   Forta in element              :  20.020
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L25 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        56        56      1375      2288
+
+   Grosime inima                 :   56.00
+   Forta in element              :  28.970
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L26 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        56        56        28      2614
+
+   Grosime inima                 :   56.00
+   Forta in element              :  28.970
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L27 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        56        56       599      2614
+
+   Grosime inima                 :   56.00
+   Forta in element              :  20.020
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L28 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        56        56       844      2614
+
+   Grosime inima                 :   56.00
+   Forta in element              :  20.020
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L29 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        56        56      1375      2614
+
+   Grosime inima                 :   56.00
+   Forta in element              :  28.970
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L30 are 4 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       142        21      2864
+2:       135        42       110      2914
+3:        42       172       198      2979
+4:        80        42       259      2914
+
+   Grosime inima                 :   42.00
+   Forta in element              : 103.360
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L31 are 3 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:       130        28       498      2907
+2:        28       325       577      3016
+3:        50        28       616      2907
+
+   Grosime inima                 :   28.00
+   Forta in element              :  80.330
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L32 are 3 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        50        42       788      2914
+2:        42       155       834      2920
+3:       140        42       925      2914
+
+   Grosime inima                 :   42.00
+   Forta in element              :  73.060
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L33 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:       120        42      1287      2914
+2:        42       305      1368      2946
+
+   Grosime inima                 :   42.00
+   Forta in element              :  77.220
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L34 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       150       198      3335
+2:        70        28       254      3274
+
+   Grosime inima                 :   42.00
+   Forta in element              :  36.790
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L35 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        70        28      1312      3274
+2:        42       100      1368      3310
+
+   Grosime inima                 :   42.00
+   Forta in element              :  36.760
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L36 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       110       198      3592
+2:        70        28       254      3551
+
+   Grosime inima                 :   42.00
+   Forta in element              :  40.340
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L37 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       105      1368      3590
+
+   Grosime inima                 :   42.00
+   Forta in element              :  32.470
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L38 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       135       198      3904
+2:       100        28       269      3901
+
+   Grosime inima                 :   42.00
+   Forta in element              :  36.790
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L39 are 7 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        70        28       583      3274
+2:        28      1009       632      3764
+3:        70        28       681      3274
+4:        40        28       678      3874
+5:        50        28       671      3552
+6:       120        42       558      4248
+7:       120        42       706      4248
+
+   Grosime inima                 :   28.00
+   Forta in element              : 124.260
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L40 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       120      1368      3897
+
+   Grosime inima                 :   42.00
+   Forta in element              :  33.280
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L41 are 4 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       156        21      4289
+2:       135        42       110      4232
+3:        42       192       198      4157
+4:       120        42       279      4232
+
+   Grosime inima                 :   42.00
+   Forta in element              :  93.470
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L42 are 3 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:       100        42       754      4232
+2:        28       150       918      4286
+3:       100        42       882      4232
+
+   Grosime inima                 :   28.00
+   Forta in element              :  30.860
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L43 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        98        42      1298      4232
+2:        42       263      1368      4212
+
+   Grosime inima                 :   42.00
+   Forta in element              :  67.800
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L44 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       100        21      4557
+
+   Grosime inima                 :   42.00
+   Forta in element              :  27.350
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L45 are 4 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:       120        42       393      4873
+2:        28       689       467      4556
+3:        70        28       516      4225
+4:        60        42       511      4873
+
+   Grosime inima                 :   28.00
+   Forta in element              : 123.690
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L46 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        28       250       818      4632
+
+   Grosime inima                 :   28.00
+   Forta in element              :  29.600
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L47 are 1 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       100      1368      4557
+
+   Grosime inima                 :   42.00
+   Forta in element              :  29.240
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L48 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        42       170        21      4809
+2:        90        42        87      4873
+
+   Grosime inima                 :   42.00
+   Forta in element              :  48.510
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L49 are 3 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:        90        42       759      4873
+2:        28        67       818      4860
+3:        90        42       877      4873
+
+   Grosime inima                 :   28.00
+   Forta in element              :  53.220
+   Forta in element pentru seism :   0.000
+
+
+      Elementul L50 are 2 dreptunghiuri. 
+
+         b          h         d1         d2
+
+1:       110        42      1292      4873
+2:        42       150      1368      4825
+
+   Grosime inima                 :   42.00
+   Forta in element              :  48.630
+   Forta in element pentru seism :   0.000
+
+		    R  E  Z  U  L  T  A  T  E  L  E     C  O  M  P  L  E  T  E
+
+     Centrul de greutate     :        d1 =635.75          d2 =2533.28
+
+     Centrul de rigiditate   : d1cr-d1cm = -2.25   d2cr-d2cm = 4.29
+
+     Incarcarea pe nivel     :              N = 2653.500
+     Incarcarea pentru seism :         Nseism = 0.000
+          Aria zidurilor     :              A = 560868.000
+
+
+                 Elementul  L1
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+1.100e+04 -4.810e+014.810e+01 0.000e+00 1.759e+07 2.485e+07 3.6573e+053.6573e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.417	-0.350	0.883	16.153	16.153	4050.0000	25.0050	25.0
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+12.510	12.510	5.267	5.267	-29.456	17.2964	-9.6052	5.64
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	34.020	-9.605	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L2
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+8.820e+03 -2.100e+012.100e+01 0.000e+00 1.297e+06 3.241e+07 6.1740e+046.1740e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.222	0.233	0.844	2.607	2.607	3103.3333	14.7750	14.78
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+7.395	7.395	0.850	0.850	-10.574	5.0665	-3.4481	1.652
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+0.000	0.000	26.068	-3.448	0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L3
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+1.498e+04 -2.132e+022.132e+02 0.000e+00 3.202e+08 2.817e+06 1.5019e+061.5019e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+5.566	-1.208	1.113	83.596	83.596	6948.3333	102.1850	188.2
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+51.100	76.416	27.259	27.259	-220.390	114.0671	-71.8662	37.2
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	58.366	-71.866	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L4
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+9.660e+03 -2.100e+012.100e+01 0.000e+00 1.420e+06 4.258e+07 6.7620e+046.7620e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.713	-1.240	0.943	3.187	3.187	3794.1667	16.4950	16.5
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+8.255	8.255	1.039	1.039	-13.320	5.8028	-4.3434	1.892
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	31.871	-4.343	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L5
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+9.324e+03 -5.298e+015.298e+01 0.000e+00 1.589e+07 6.281e+06 2.9988e+052.9988e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+6.328	-0.473	1.266	18.976	18.976	4916.6667	40.3050	40.3
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+20.160	20.160	6.188	6.188	-43.154	19.3650	-14.0719	6.315
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	41.300	-14.072	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L6
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+4.200e+03 -5.000e+015.000e+01 0.000e+00 3.500e+06 6.174e+05 7.0000e+047.0000e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+6.543	-1.506	1.309	4.580	4.580	2290.0000	54.5250	45.48
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+27.270	27.270	1.493	1.493	-21.234	6.2462	-6.9241	2.037
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	19.236	-6.924	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L7
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+5.040e+03 -6.000e+016.000e+01 0.000e+00 6.048e+06 7.409e+05 1.0080e+051.0080e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+5.500	-0.950	1.100	5.544	5.544	2310.0000	54.9950	54.99
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+27.505	27.505	1.808	1.808	-24.256	9.0076	-7.9097	2.937
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	19.404	-7.910	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L8
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+1.546e+04 -3.415e+011.142e+02 3.360e+03 5.177e+07 4.893e+07 1.5160e+061.5160e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.696	-1.188	0.939	71.189	71.189	6048.3333	36.0050	96.0
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+18.010	61.342	23.214	23.214	-37.859	38.3295	-12.3454	12.5
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-3.991	3.156	50.806	-12.345	-3.991	0.800	0.8000	0.0
+
+
+                 Elementul  L9
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+1.425e+04 1.585e+02 2.485e+02 1.140e+04 2.728e+08 1.845e+06 1.7212e+061.7212e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.387	-0.262	0.877	75.516	75.516	5210.8333	76.6250	186.1
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+38.320	93.060	24.625	24.625	75.156	97.1893	24.5074	31.69
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-2.990	10.000	43.771	-2.990	-2.990	-116.638	0.8000	0.0
+
+
+                 Elementul  L10
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+1.457e+04 -3.203e+011.190e+02 3.654e+03 5.408e+07 2.010e+07 1.6882e+061.6882e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.541	-0.723	0.908	76.660	76.660	5515.0000	38.8350	100.1
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+19.425	60.394	24.998	24.998	-34.055	38.8073	-11.1049	12.65
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-2.641	3.319	46.326	-11.105	-2.641	0.800	0.8000	0.0
+
+
+                 Elementul  L11
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+5.880e+03 -7.000e+017.000e+01 0.000e+00 9.604e+06 8.644e+05 1.3720e+051.3720e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.903	-1.809	0.981	6.727	6.727	2402.5000	57.2050	57.2
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+28.610	28.610	2.194	2.194	-28.429	11.9327	-9.2704	3.891
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	20.181	-9.270	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L12
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+3.343e+04 3.213e+02 3.357e+02 1.840e+04 2.170e+09 4.009e+07 6.7542e+066.7542e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+3.666	-0.598	0.733	247.605	247.605	10213.3333	29.3450	124.8
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+14.680	35.161	80.741	80.741	375.801	368.3329	122.5440	120.1
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-11.010	13.488	85.792	-11.010	-11.010	0.800	0.8000	0.0
+
+
+                 Elementul  L13
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+4.200e+03 -5.000e+015.000e+01 0.000e+00 3.500e+06 6.174e+05 7.0000e+047.0000e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+7.895	-3.992	1.579	5.527	5.527	2763.3333	65.7950	34.21
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+32.905	32.905	1.802	1.802	-27.491	5.6687	-8.9646	1.848
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	23.212	-8.965	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L14
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+7.210e+03 -4.932e+014.932e+01 0.000e+00 1.032e+07 6.048e+06 2.0929e+052.0929e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+5.401	-0.563	1.080	11.303	11.303	3245.0000	28.9750	30.59
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+14.495	14.520	3.686	3.686	-24.848	13.5494	-8.1026	4.418
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	27.258	-8.103	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L15
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+4.200e+03 -5.000e+015.000e+01 0.000e+00 3.500e+06 6.174e+05 7.0000e+047.0000e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+10.531	-3.113	2.106	7.372	7.372	3685.8333	87.7550	12.25
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+43.885	43.885	2.404	2.404	-41.525	2.7047	-13.5409	0.882
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	30.961	-13.541	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L16
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+7.000e+03 1.408e+01 7.092e+01 3.570e+03 8.322e+06 5.967e+06 5.9109e+055.9109e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+5.024	0.905	1.005	29.698	29.698	2930.8333	26.1650	69.78
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+13.090	34.900	9.684	9.684	0.348	12.6682	0.1135	4.131
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+3.232	3.587	24.619	0.114	3.232	0.800	0.8000	0.0
+
+
+                 Elementul  L17
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+4.200e+03 -5.000e+015.000e+01 0.000e+00 3.500e+06 6.174e+05 7.0000e+047.0000e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+7.924	-4.158	1.585	5.547	5.547	2773.3333	66.0350	33.97
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+33.025	33.025	1.809	1.809	-27.631	5.6493	-9.0100	1.842
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	23.296	-9.010	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L18
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+2.457e+04 -1.952e+011.455e+02 5.292e+03 8.550e+07 2.388e+08 4.3793e+064.3793e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.935	-1.905	0.987	216.111	216.111	10104.1667	29.8050	140.2
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+14.910	96.390	70.471	70.471	-41.750	59.5733	-13.6142	19.43
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-10.079	5.223	84.875	-13.614	-10.079	0.800	0.8000	0.0
+
+
+                 Elementul  L19
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+2.439e+04 1.132e+02 3.018e+02 1.162e+04 5.676e+08 5.129e+07 5.0149e+065.0149e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+3.610	-0.482	0.722	181.058	181.058	7337.5000	24.6250	192.1
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+12.320	95.493	59.041	59.041	88.812	181.6664	28.9604	59.24
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-5.599	8.391	61.635	-5.599	-5.599	-0.274	0.8000	0.0
+
+
+                 Elementul  L20
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+1.512e+04 -3.400e+013.400e+01 0.000e+00 1.264e+07 3.092e+07 3.7177e+053.7177e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.396	-0.288	0.879	16.344	16.344	5539.1667	19.6450	19.65
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+9.830	9.830	5.329	5.329	-29.134	16.0658	-9.5002	5.239
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	46.529	-9.500	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L21
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+1.730e+04 -2.454e+011.445e+02 5.040e+03 8.797e+07 3.129e+07 3.5842e+063.5842e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+5.105	0.592	1.021	182.960	182.960	7360.8333	45.4350	134.3
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+22.725	81.180	59.661	59.661	-41.752	55.9689	-13.6149	18.25
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+2.984	5.145	61.831	-13.615	2.984	0.800	0.8000	0.0
+
+
+                 Elementul  L22
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+3.136e+03 -2.800e+012.800e+01 0.000e+00 8.195e+05 8.195e+05 2.9269e+042.9269e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+9.238	-0.508	1.848	2.704	2.704	2414.1667	43.1150	12.88
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+21.565	21.565	0.882	0.882	-14.359	1.8642	-4.6823	0.6079
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	20.279	-4.682	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L23
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+3.136e+03 -2.800e+012.800e+01 0.000e+00 8.195e+05 8.195e+05 2.9269e+042.9269e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+6.384	-0.743	1.277	1.869	1.869	1668.3333	29.7950	26.2
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+14.905	14.905	0.609	0.609	-8.590	2.6216	-2.8010	0.8549
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	14.014	-2.801	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L24
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+3.136e+03 -2.800e+012.800e+01 0.000e+00 8.195e+05 8.195e+05 2.9269e+042.9269e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+6.384	-0.743	1.277	1.869	1.869	1668.3333	29.7950	26.2
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+14.905	14.905	0.609	0.609	-8.590	2.6216	-2.8010	0.8549
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	14.014	-2.801	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L25
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+3.136e+03 -2.800e+012.800e+01 0.000e+00 8.195e+05 8.195e+05 2.9269e+042.9269e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+9.238	-0.508	1.848	2.704	2.704	2414.1667	43.1150	12.88
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+21.565	21.565	0.882	0.882	-14.359	1.8642	-4.6823	0.6079
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	20.279	-4.682	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L26
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+3.136e+03 -2.800e+012.800e+01 0.000e+00 8.195e+05 8.195e+05 2.9269e+042.9269e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+9.238	-0.508	1.848	2.704	2.704	2414.1667	43.1150	12.88
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+21.565	21.565	0.882	0.882	-14.359	1.8642	-4.6823	0.6079
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	20.279	-4.682	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L27
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+3.136e+03 -2.800e+012.800e+01 0.000e+00 8.195e+05 8.195e+05 2.9269e+042.9269e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+6.384	-0.743	1.277	1.869	1.869	1668.3333	29.7950	26.2
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+14.905	14.905	0.609	0.609	-8.590	2.6216	-2.8010	0.8549
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	14.014	-2.801	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L28
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+3.136e+03 -2.800e+012.800e+01 0.000e+00 8.195e+05 8.195e+05 2.9269e+042.9269e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+6.384	-0.743	1.277	1.869	1.869	1668.3333	29.7950	26.2
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+14.905	14.905	0.609	0.609	-8.590	2.6216	-2.8010	0.8549
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	14.014	-2.801	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L29
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+3.136e+03 -2.800e+012.800e+01 0.000e+00 8.195e+05 8.195e+05 2.9269e+042.9269e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+9.238	-0.508	1.848	2.704	2.704	2414.1667	43.1150	12.88
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+21.565	21.565	0.882	0.882	-14.359	1.8642	-4.6823	0.6079
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	20.279	-4.682	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L30
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+2.222e+04 -2.871e+011.287e+02 4.200e+03 7.327e+07 1.738e+08 2.5518e+062.5518e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.652	-1.056	0.930	118.711	118.711	8613.3333	28.8050	114.8
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+14.410	79.411	38.710	38.710	-44.572	50.9578	-14.5342	16.62
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-4.436	3.908	72.352	-14.534	-4.436	0.800	0.8000	0.0
+
+
+                 Elementul  L31
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+1.414e+04 -8.383e+011.238e+02 1.120e+03 1.186e+08 2.702e+07 1.4150e+061.4150e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+5.681	-1.656	1.136	80.385	80.385	6694.1667	32.1850	66.8
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+16.100	47.815	26.213	26.213	-80.271	61.0603	-26.1754	19.91
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-1.855	1.273	56.231	-26.175	-1.855	0.800	0.8000	0.0
+
+
+                 Elementul  L32
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+1.449e+04 -2.392e+017.392e+01 2.100e+03 1.436e+07 5.087e+07 6.0025e+056.0025e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+5.042	0.836	1.008	30.265	30.265	6088.3333	26.2450	67.2
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+13.130	47.020	9.869	9.869	-27.069	19.6537	-8.8268	6.409
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+1.755	2.118	51.142	-8.827	1.755	0.800	0.8000	0.0
+
+
+                 Elementul  L33
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+1.785e+04 -4.361e+011.436e+02 4.200e+03 1.036e+08 3.166e+07 2.3766e+062.3766e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.326	-0.078	0.865	102.813	102.813	6435.0000	39.7250	113.8
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+19.870	69.765	33.526	33.526	-49.016	57.0196	-15.9835	18.59
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.328	3.634	54.054	-15.984	-0.328	0.800	0.8000	0.0
+
+
+                 Elementul  L34
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+8.260e+03 -6.053e+016.053e+01 0.000e+00 1.750e+07 6.414e+06 2.8919e+052.8919e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.454	-0.462	0.891	12.880	12.880	3065.8333	27.3750	27.37
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+13.695	13.695	4.200	4.200	-27.306	17.2289	-8.9040	5.618
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	25.753	-8.904	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L35
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+6.160e+03 -3.855e+013.855e+01 0.000e+00 5.360e+06 5.609e+06 1.3906e+051.3906e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+5.968	-2.773	1.194	8.298	8.298	3063.3333	27.3550	27.36
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+13.685	13.685	2.706	2.706	-19.200	9.1387	-6.2608	2.98
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	25.732	-6.261	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L36
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+6.580e+03 -4.279e+014.279e+01 0.000e+00 7.100e+06 5.795e+06 1.6593e+051.6593e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+6.131	0.473	1.226	10.173	10.173	3361.6667	30.0150	33.39
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+15.015	15.126	3.317	3.317	-23.317	11.1584	-7.6035	3.639
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+0.000	0.000	28.238	-7.604	0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L37
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+4.410e+03 -5.250e+015.250e+01 0.000e+00 4.052e+06 6.483e+05 7.7175e+047.7175e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+7.363	-0.904	1.473	5.682	5.682	2705.8333	64.4250	40.58
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+32.220	32.220	1.853	1.853	-27.509	6.5849	-8.9702	2.147
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	22.729	-8.970	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L38
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+8.470e+03 -1.634e+016.634e+01 2.100e+03 8.817e+06 1.262e+07 5.3951e+055.3951e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.344	-0.131	0.869	23.434	23.434	3065.8333	21.5950	56.8
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+10.805	33.961	7.642	7.642	-9.988	11.9133	-3.2569	3.885
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.274	1.824	25.753	-3.257	-0.274	0.800	0.8000	0.0
+
+
+                 Elementul  L39
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+4.477e+04 4.005e+02 5.665e+02 2.708e+04 5.603e+09 8.484e+07 1.3990e+071.3990e+07
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+2.775	-0.230	0.555	388.273	388.273	10355.0000	20.7950	229.8
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+10.405	76.718	126.611	126.611	484.727	608.6081	158.0630	198.5
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-6.240	15.029	86.982	-6.240	-6.240	0.800	0.8000	0.0
+
+
+                 Elementul  L40
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+5.040e+03 -6.000e+016.000e+01 0.000e+00 6.048e+06 7.409e+05 1.0080e+051.0080e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+6.603	-1.795	1.321	6.656	6.656	2773.3333	66.0350	53.97
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+33.025	33.025	2.170	2.170	-30.959	8.9773	-10.0952	2.927
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	23.296	-10.095	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L41
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+2.533e+04 -1.187e+011.619e+02 6.300e+03 1.042e+08 2.375e+08 8.7790e+068.7790e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+3.691	-0.650	0.738	324.004	324.004	7789.1667	22.9750	154.4
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+11.495	89.784	105.654	105.654	-21.835	67.3748	-7.1202	21.97
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-4.098	4.650	65.429	-7.120	-4.098	0.800	0.8000	0.0
+
+
+                 Elementul  L42
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+1.260e+04 -3.900e+013.900e+01 0.000e+00 1.727e+07 6.968e+07 4.4294e+054.4294e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+2.449	0.161	0.490	10.848	10.848	2571.6667	11.2750	11.27
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+5.645	5.645	3.538	3.538	-13.777	10.2934	-4.4926	3.357
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+0.000	0.000	21.602	-4.493	0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L43
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+1.516e+04 -6.794e+001.368e+02 5.460e+03 6.542e+07 1.961e+07 9.6289e+069.6289e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.472	-0.515	0.894	430.577	430.577	5650.0000	40.3550	131.4
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+20.185	67.229	140.406	140.406	-18.292	47.1648	-5.9646	15.38
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-2.813	4.883	47.460	-5.965	-2.813	0.800	0.8000	0.0
+
+
+                 Elementul  L44
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+4.200e+03 -5.000e+015.000e+01 0.000e+00 3.500e+06 6.174e+05 7.0000e+047.0000e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+6.512	-1.357	1.302	4.558	4.558	2279.1667	54.2650	45.74
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+27.140	27.140	1.486	1.486	-21.098	6.2522	-6.8797	2.039
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	19.145	-6.880	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L45
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+2.881e+04 2.357e+02 4.053e+02 1.795e+04 1.634e+09 4.509e+07 6.9334e+066.9334e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.293	0.021	0.859	297.651	297.651	10307.5000	37.0750	298.1
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+18.545	123.387	97.060	97.060	268.567	348.7300	87.5761	113.7
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+0.377	15.410	86.583	0.377	0.377	-4.297	0.8000	0.0
+
+
+                 Elementul  L46
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+7.000e+03 -1.250e+021.250e+02 0.000e+00 3.646e+07 4.573e+05 2.9167e+052.9167e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.229	0.214	0.846	12.333	12.333	2466.6667	88.0950	88.1
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+44.055	44.055	4.022	4.022	-50.040	23.9597	-16.3175	7.813
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+0.000	0.000	20.720	-16.317	0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L47
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+4.200e+03 -5.000e+015.000e+01 0.000e+00 3.500e+06 6.174e+05 7.0000e+047.0000e+04
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+6.962	-3.517	1.392	4.873	4.873	2436.6667	58.0150	41.99
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+29.015	29.015	1.589	1.589	-23.104	6.1360	-7.5339	2.001
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-0.000	0.000	20.468	-7.534	-0.000	0.800	0.8000	0.0
+
+
+                 Elementul  L48
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+1.092e+04 2.085e+01 1.072e+02 5.376e+03 2.787e+07 1.437e+07 1.3372e+061.3372e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.442	-0.427	0.888	59.401	59.401	4042.5000	30.6250	96.25
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+15.320	48.130	19.370	19.370	2.681	28.6325	0.8742	9.337
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-2.295	4.776	33.957	-2.295	-2.295	0.214	0.8000	0.0
+
+
+                 Elementul  L49
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+9.436e+03 -1.851e+014.351e+01 7.000e+02 2.048e+06 3.154e+07 1.1061e+051.1061e+05
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+5.640	-1.496	1.128	6.239	6.239	4435.0000	21.3250	42.95
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+10.670	30.595	2.034	2.034	-15.532	6.8758	-5.0648	2.242
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-1.047	0.790	37.254	-5.065	-1.047	0.800	0.8000	0.0
+
+
+                 Elementul  L50
+
+    Arie       y1        y2        Arin        Icgd1     Icgd2       W1cg         W2cg
+
+1.092e+04 6.692e+00 9.531e+01 4.284e+03 1.863e+07 2.098e+07 2.7842e+062.7842e+06
+
+Sigma0	tau0fc	tau0uc	Mf1	Mf2	Ac1,2	xu1	xu2
+
+4.453	-0.460	0.891	123.988	123.988	4052.5000	26.6650	94.13
+
+c1	c2	Qf1	Qf2	Mu1	Mu2	Qu1	Qu2
+
+13.340	48.250	40.431	40.431	-3.233	22.8842	-1.0542	7.462
+
+Qficap	Qui	Ql	Qcap1	Qcap2	psi1	psi2	Arie
+
+-1.970	3.816	34.041	-1.970	-1.970	0.289	0.8000	0.0
+
+
+
+
+	      C O N C L U Z I I   C A L C U L
+
+
+Qcap.1 = -450.767	Qcap.2 = -53.319
+
+\Psi mediu 1 = 0.007	Psi mediu 2 = 0.800
+
+
+    Gradul de acoperire al structurii:
+
+		R1 = -1.00
+		R2 = -1.00-=  S F A R S I T  =-

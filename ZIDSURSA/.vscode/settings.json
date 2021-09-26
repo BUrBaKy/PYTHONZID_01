@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "MAIN.C": "cpp",
+        "CALCULE.C": "cpp",
+        "INOUT.C": "cpp",
+        "CASA.C": "cpp",
+        "DESENARE.C": "cpp",
+        "UTILE.C": "cpp"
+    }
+}

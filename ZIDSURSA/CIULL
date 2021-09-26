@@ -1,0 +1,1451 @@
+:          CIULNITA situatia PLANSEU RIGID M4,C50
+:
+2 55 10  : Dimens max.
+1        : Scara
+0        : Rotire --->  -1:-90  0:NU  1:+90
+0        : Delta origine : are importanta doar daca se face rotire.
+0        :  Forta statica repartizata nivelului.
+         :  Ea se repartizeaza spaletilor proportional cu ariile lor.
+         :  Se va pune zero daca se dau explicit fortele N.
+2648.00  :  Forta pentru seism repartizata nivelului.
+         :  Se va pune zero daca se dau explicit fortele Nseism.
+1        :  Rezultate -->  1: Toate  //   0: De interes.
+
+: Coeficientii : Ks, Beta, Epsilon
+0.2  2.75  1
+
+
+
+: Marcile de caramida si mortar folosite:
+: Mortarul->  0:M50 1:M25 2:M10 3:M4
+3
+: Caramida->  0:C200 1:C150 2:C125 3:C100 4:C75 5:C50
+5
+
+Denumire=Gara Ciulnita (Mortar M4; Caramida C50)
+longitudinal
+
+
+50 : Numarul de elemente
+
+
+: Numele elementului < max 5 char >
+L1
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+48.60 0  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 142 0 0
+120 42 42 0
+: Grosime inima element
+42 42
+
+: Numele elementului < max 5 char >
+L2
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+37.24 0 : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+210 42 328 0
+: Grosime inima element
+42 42
+
+: Numele elementului < max 5 char >
+L3
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+83.38 0  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+40 42 641 0
+28 475 681 0
+: Grosime inima element
+28 28
+
+
+: Numele elementului < max 5 char >
+L4
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460     : cm
+: Forta N pe element si forta pentru seism.
+45.53 0 : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+230 42 843 0
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L5
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+59.00 0 : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+80 42 1287 0
+42 142 1347 0
+: Grosime inima element
+42 42
+
+: Numele elementului < max 5 char >
+L6
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+27.48 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 100 0 296
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L7
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+27.72 0 : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 120 1347 296
+: Grosime inima element
+42 42
+
+: Numele elementului < max 5 char >
+L8
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+72.58 0 : tone
+: Numarul de dreptunghiuri pe element
+3
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 122 0 555
+84 42 42 635
+42 162 124 635
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L9
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+62.53 0 : tone
+: Numarul de dreptunghiuri pe element
+3
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+20 42 308 635
+28 449 328 228
+20 42 356 635
+: Grosime inima element
+28 28
+
+: Numele elementului < max 5 char >
+L10
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+66.18 0  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+100 42 1247 635
+42 247 1347 548
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L11
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+28.83 0 : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 140 177 971
+: Grosime inima element
+42 42
+
+: Numele elementului < max 5 char >
+L12
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+122.56 0 :tone
+: Numarul de dreptunghiuri pe element
+5
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+80 42 302 635
+80 42 410 635
+28 794 382 635
+80 28 302 957
+80 28 410 1292
+: Grosime inima element
+28 28
+
+: Numele elementului < max 5 char >
+L13
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+33.16 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 100 1347 993
+: Grosime inima element
+42 42
+
+: Numele elementului < max 5 char >
+L14
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+38.94 0  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+70 28 219 1255
+42 125 177 1255
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L15
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+44.23 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 100 1347 1255
+: Grosime inima element
+42 42
+
+: Numele elementului < max 5 char >
+L16
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+35.17 0  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+70 28 219 1618
+42 120 177 1533
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L17
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+33.28 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 100 1347 1533
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L18
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+121.25 0  : tone
+: Numarul de dreptunghiuri pe element
+4
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 162 0 1937
+135 42 42 1937
+42 168 177 1811
+120 42 219 1937
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L19
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+88.05 0  : tone
+: Numarul de dreptunghiuri pe element
+4
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+70 28 312 1602
+80 42 302 1937
+28 501 382 1522
+120 42 410 1937
+: Grosime inima element
+28 28
+
+
+: Numele elementului < max 5 char >
+L20
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+66.47 0  : tone
+: Numarul de dreptunghiuri pe element
+3
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+120 42 794 1937
+42 120 814 1937
+120 42 856 1937
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L21
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+88.33 0  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+120 42 1227 1937
+42 292 1347 1817
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L22
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+28.97 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+56 56 0 2260
+: Grosime inima element
+56 56
+
+
+: Numele elementului < max 5 char >
+L23
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+20.02 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+56 56 571 2260
+: Grosime inima element
+56 56
+
+
+: Numele elementului < max 5 char >
+L24
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+20.02 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+56 56 816 2260
+: Grosime inima element
+56 56
+
+: Numele elementului < max 5 char >
+L25
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+28.97 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+56 56 1347 2260
+: Grosime inima element
+56 56
+
+
+: Numele elementului < max 5 char >
+L26
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+28.97 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+56 56 0 2586
+: Grosime inima element
+56 56
+
+
+: Numele elementului < max 5 char >
+L27
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+20.02 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+56 56 571 2586
+: Grosime inima element
+56 56
+
+
+: Numele elementului < max 5 char >
+L28
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+20.02 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+56 56 816 2586
+: Grosime inima element
+56 56
+
+
+: Numele elementului < max 5 char >
+L29
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+28.97 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+56 56 1347 2586
+: Grosime inima element
+56 56
+
+
+: Numele elementului < max 5 char >
+L30
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+103.36 0  : tone
+: Numarul de dreptunghiuri pe element
+4
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 142 0 2793
+135 42 42 2893
+42 172 177 2893
+80 42 219 2893
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L31
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+80.33 0  : tone
+: Numarul de dreptunghiuri pe element
+3
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+130 28 433 2893
+28 325 563 2853
+50 28 591 2893
+: Grosime inima element
+28 28
+
+
+: Numele elementului < max 5 char >
+L32
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+73.06 0  : tone
+: Numarul de dreptunghiuri pe element
+3
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+50 42 763 2893
+42 155 813 2843
+140 42 855 2893
+: Grosime inima element
+42 42
+
+: Numele elementului < max 5 char >
+L33
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+77.22 0  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+120 42 1227 2893
+42 305 1347 2793
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L34
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+36.79 0  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 150 177 3260
+70 28 219 3260
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L35
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+36.76 0  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+70 28 1277 3260
+42 100 1347 3260
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L36
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+40.34 0  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 110 177 3537
+70 28 219 3537
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L37
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+32.47 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 105 1347 3537
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L38
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+36.79 0  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 135 177 3837
+100 28 219 3887
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L39
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+124.26 0  : tone
+: Numarul de dreptunghiuri pe element
+7
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+70 28 548 3260
+28 1009 618 3260
+70 28 646 3260
+40 28 658 3860
+50 28 646 3538
+120 42 498 4227
+120 42 646 4227
+: Grosime inima element
+28 28
+
+
+: Numele elementului < max 5 char >
+L40
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+33.28 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 120 1347 3837
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L41
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+93.47 0  : tone
+: Numarul de dreptunghiuri pe element
+4
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 156 0 4211
+135 42 42 4211
+42 192 177 4061
+120 42 219 4211
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L42
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+30.86 0  : tone
+: Numarul de dreptunghiuri pe element
+3
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+100 42 704 4211
+28 150 904 4211
+100 42 832 4211
+: Grosime inima element
+28 28
+
+
+: Numele elementului < max 5 char >
+L43
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+67.80 0  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+98 42 1249 4211
+42 263 1347 4081
+: Grosime inima element
+42 42
+
+: Numele elementului < max 5 char >
+L44
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+27.35 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 100 0 4507
+: Grosime inima element
+42 42
+
+
+: Numele elementului < max 5 char >
+L45
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+123.69 0  : tone
+: Numarul de dreptunghiuri pe element
+4
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+120 42 333 4852
+28 689 453 4211
+70 28 481 4211
+60 42 481 4852
+: Grosime inima element
+28 28
+
+
+: Numele elementului < max 5 char >
+L46
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+29.60 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+28 250 804 4507
+: Grosime inima element
+28 28
+
+: Numele elementului < max 5 char >
+L47
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+29.24 0  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 100 1347 4507
+: Grosime inima element
+42 42
+
+: Numele elementului < max 5 char >
+L48
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+48.51 0  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+42 170 0 4724
+90 42 42 4852
+: Grosime inima element
+42 42
+
+: Numele elementului < max 5 char >
+L49
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+53.22 0  : tone
+: Numarul de dreptunghiuri pe element
+3
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+90 42 714 4852
+28 67 804 4827
+90 42 832 4852
+: Grosime inima element
+28 28
+
+: Numele elementului < max 5 char >
+L50
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+460    : cm
+: Forta N pe element si forta pentru seism.
+48.63 0  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+110 42 1237 4852
+42 150 1347 4750
+: Grosime inima element
+42 42
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:        BRADESCU situatia existenta M10,C75
+:
+2 55 10  : Dimens max.
+1        : Scara
+0        : Rotire --->  -1:-90  0:NU  1:+90
+0        : Delta origine : are importanta doar daca se face rotire.
+0        :  Forta statica repartizata nivelului.
+         :  Ea se repartizeaza spaletilor proportional cu ariile lor.
+         :  Se va pune zero daca se dau explicit fortele N.
+330.     :  Forta pentru seism repartizata nivelului.
+         :  Se va pune zero daca se dau explicit fortele Nseism.
+1        :  Rezultate -->  1: Toate  //   0: De interes.
+
+: Coeficientii : Ks, Beta, Epsilon
+0.2  2.5  1
+
+
+
+: Marcile de caramida si mortar folosite:
+: Mortarul->  0:M50 1:M25 2:M10 3:M4
+2
+: Caramida->  0:C200 1:C150 2:C125 3:C100 4:C75 5:C50
+4
+
+Denumire=Barbu Bradescu 5 (Mortar M10; Caramida C75)
+transversal
+
+
+13 : Numarul de elemente
+
+
+: Numele elementului < max 5 char >
+T1
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+300    : cm
+: Forta N pe element si forta pentru seism.
+1 1  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+28 230 0 370
+128 28 0 600
+: Grosime inima element
+28 28
+
+: Numele elementului < max 5 char >
+T2
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+300    : cm
+: Forta N pe element si forta pentru seism.
+1 1  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+28 28 0 180
+: Grosime inima element
+28 28
+
+
+: Numele elementului < max 5 char >
+T3
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+300    : cm
+: Forta N pe element si forta pentru seism.
+1 1  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+115 28 295 0
+28 22  295 28
+: Grosime inima element
+28 28
+
+
+: Numele elementului < max 5 char >
+T4
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+300    : cm
+: Forta N pe element si forta pentru seism.
+1 1  : tone
+: Numarul de dreptunghiuri pe element
+3
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+28 23 290 150
+200 28 190 180
+14 100 370 208
+: Grosime inima element
+28 28
+
+
+: Numele elementului < max 5 char >
+T5
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+300    : cm
+: Forta N pe element si forta pentru seism.
+1 1  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+14 130 375 480
+214 28 275 600
+: Grosime inima element
+14 14
+
+
+: Numele elementului < max 5 char >
+T6
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+300    : cm
+: Forta N pe element si forta pentru seism.
+1 1  : tone
+: Numarul de dreptunghiuri pe element
+4
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+120 28 505 0
+28 150 590 28
+160 28 590 178
+14 130 630 206
+: Grosime inima element
+28 28
+
+
+: Numele elementului < max 5 char >
+T7
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+300    : cm
+: Forta N pe element si forta pentru seism.
+1 1  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+14 180 630 420
+214 28 530 600
+: Grosime inima element
+14 14
+
+
+: Numele elementului < max 5 char >
+T8
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+300    : cm
+: Forta N pe element si forta pentru seism.
+1 1  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+120 28 900 178
+14 160 960 206
+: Grosime inima element
+14 14
+
+
+: Numele elementului < max 5 char >
+T9
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+300    : cm
+: Forta N pe element si forta pentru seism.
+1 1  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+120 28 900 600
+14 150 960 450
+: Grosime inima element
+14 14
+
+
+: Numele elementului < max 5 char >
+T10
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+300    : cm
+: Forta N pe element si forta pentru seism.
+1 1  : tone
+: Numarul de dreptunghiuri pe element
+1
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+100 28 1235 180
+: Grosime inima element
+135 135
+
+
+: Numele elementului < max 5 char >
+T11
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+300    : cm
+: Forta N pe element si forta pentru seism.
+1 1  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+14 250 1235 350
+214 28 1135 600
+: Grosime inima element
+14 14
+
+
+
+: Numele elementului < max 5 char >
+T12
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+300    : cm
+: Forta N pe element si forta pentru seism.
+1 1  : tone
+: Numarul de dreptunghiuri pe element
+3
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+14 175 1465 175
+100 14 1365 350
+28 21 1451 364
+: Grosime inima element
+14 14
+
+
+: Numele elementului < max 5 char >
+T13
+: Tipul
+:    0:pereti plini sau spaleti in consola
+:    1:spaleti dublu incastrati la capete
+0
+: Inaltime ( H spalet )
+300    : cm
+: Forta N pe element si forta pentru seism.
+1 1  : tone
+: Numarul de dreptunghiuri pe element
+2
+: b h d1 d2
+: d1,2 se masoara fata de coltul stanga jos al dreptunghiului
+: d1||b si d2||h, iar h este coordonata care se ridica la puterea 3
+: in expresia lui I. Cu aceste reguli geometria este definita clar.
+28 100 1451 500
+118 28 1361 600
+: Grosime inima element
+28 28
+
